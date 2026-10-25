@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="comments_feedback_local_summary">
+        <item quantity="other">%1$s - Movie! Plus: %2$d opiniones</item>
+        <item quantity="one">%1$s - Movie! Plus: %2$d opinión</item>
+    </plurals>
+    <plurals name="comments_feedback_summary">
+        <item quantity="other">Movie! Plus: %1$d opiniones - %2$s/5</item>
+        <item quantity="one">Movie! Plus: %1$d opinión - %2$s/5</item>
+    </plurals>
+    <plurals name="community_reaction_count_content_description">
+        <item quantity="other">%1$s, %2$d reacciones</item>
+        <item quantity="one">%1$s, %2$d reacción</item>
+    </plurals>
+    <plurals name="community_star_content_description">
+        <item quantity="other">%1$d estrellas</item>
+        <item quantity="one">%1$d estrella</item>
+    </plurals>
+    <plurals name="community_summary_with_movie_plus">
+        <item quantity="other">%1$d opiniones con Movie! Plus - %2$s/5</item>
+        <item quantity="one">%1$d opinión con Movie! Plus - %2$s/5</item>
+    </plurals>
+    <plurals name="community_summary_with_reaction">
+        <item quantity="other">%1$d opiniones de Movie! Plus - %2$s/5 - %3$s</item>
+        <item quantity="one">%1$d opinión de Movie! Plus - %2$s/5 - %3$s</item>
+    </plurals>
+    <plurals name="community_vote_count">
+        <item quantity="other">%1$s opiniones</item>
+        <item quantity="one">%1$s opinión</item>
+    </plurals>
+    <plurals name="download_history_selected_count">
+        <item quantity="other">%1$d seleccionados</item>
+        <item quantity="one">%1$d seleccionado</item>
+    </plurals>
+    <plurals name="download_parts_count">
+        <item quantity="other">%1$d partes</item>
+        <item quantity="one">%1$d parte</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="watching_now_badge">
+        <item quantity="other">%1$s viendo</item>
+        <item quantity="one">%1$s viendo</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/web_main_promo_inapp" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="560.0dip" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/button_main_promo_html_close" android:background="@drawable/bg_main_promo_icon_button" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="12.0dip" android:src="@android:drawable/ic_menu_close_clear_cancel" android:tint="@android:color/white" android:contentDescription="Cerrar" />
+</FrameLayout>

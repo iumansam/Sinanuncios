@@ -1,0 +1,36 @@
+.class public abstract synthetic Ltg0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static synthetic a(Landroid/content/ClipData;I)Landroid/view/ContentInfo$Builder;
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroid/view/ContentInfo$Builder;
+
+    invoke-direct {v0, p0, p1}, Landroid/view/ContentInfo$Builder;-><init>(Landroid/content/ClipData;I)V
+
+    return-object v0
+.end method
+
+.method public static synthetic b(Landroid/view/ContentInfo;)Landroid/view/ContentInfo$Builder;
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroid/view/ContentInfo$Builder;
+
+    invoke-direct {v0, p0}, Landroid/view/ContentInfo$Builder;-><init>(Landroid/view/ContentInfo;)V
+
+    return-object v0
+.end method
+
+.method public static synthetic c()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Landroid/view/ContentInfo$Builder;
+
+    return-void
+.end method

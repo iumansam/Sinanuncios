@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/requestItem" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView" android:padding="13.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_history_black_48dp" app:tint="@color/material_grey_600" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/auto_item_last_request_last_request" android:layout_weight="1.0" />
+    <ImageView android:id="@id/iv_delete" android:background="?selectableItemBackground" android:padding="13.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_close_black_48dp" app:tint="@color/material_grey_600" />
+</LinearLayout>

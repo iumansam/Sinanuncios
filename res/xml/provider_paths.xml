@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="external" path="." />
+    <external-path name="download" path="." />
+    <external-files-path name="update_apks" path="Download/updates/" />
+    <files-path name="internal_update_apks" path="updates/" />
+</paths>

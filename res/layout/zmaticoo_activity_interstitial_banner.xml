@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_ad_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.maticoo.sdk.view.click.ClickFrameLayout android:layout_gravity="end|center|top" android:id="@id/layout_ad_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginEnd="30.0dip">
+        <ImageView android:id="@id/iv_ad_close" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/zmaticoo_ic_close" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff8a8a8a" android:gravity="center" android:id="@id/tv_ad_close_countdown" android:background="@drawable/zmaticoo_ic_close_countdown" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.maticoo.sdk.view.click.ClickFrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/zmaticoo_native_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_native_close_title" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" android:text="@string/zmaticoo_ad_closed_title" />
+    <TextView android:textSize="15.0dip" android:textColor="#ff595959" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/zmaticoo_ad_closed_tip" android:layout_weight="1.0" android:lineSpacingExtra="14.0dip" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

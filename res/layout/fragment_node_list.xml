@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.dvex.movp.utils.NestedScrollableHost android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dvex.movp.data.TvRecyclerView android:scrollbarStyle="insideOverlay" android:id="@id/recycler_view_nodes" android:focusable="true" android:scrollbars="vertical" android:nextFocusUp="@id/toolbar" android:nextFocusDown="@id/recycler_view_nodes" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="true" />
+    </com.dvex.movp.utils.NestedScrollableHost>
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressCircle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" app:indicatorColor="@color/colorPrimaryDark" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/emptySearchState" android:background="@drawable/bg_advanced_search_info" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:focusable="false" android:visibility="gone" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="22.0dip" android:paddingEnd="22.0dip" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip">
+        <ImageView android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_search" android:contentDescription="@null" android:alpha="0.9" app:tint="@color/colorPrimaryDark" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white_text" android:gravity="center" android:id="@id/emptySearchTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/empty_no_results" android:fontFamily="@font/poppinsmedium" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white_text_secondary" android:gravity="center" android:id="@id/emptySearchSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/empty_try_another_search" android:lineSpacingExtra="2.0dip" android:fontFamily="@font/poppinsregular" />
+    </LinearLayout>
+</FrameLayout>

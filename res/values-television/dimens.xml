@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_drawer_header_min_height">210.0dip</dimen>
+    <dimen name="navigation_drawer_header_top_padding">22.0dip</dimen>
+    <dimen name="navigation_drawer_width">368.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:z="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageCastAvatar" android:layout_width="@dimen/avatar_cast" android:layout_height="@dimen/avatar_cast" z:layout_constraintBottom_toBottomOf="parent" z:layout_constraintStart_toStartOf="parent" z:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/white" android:id="@id/textActorName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/size_8" z:layout_constraintBottom_toTopOf="@id/textCharacter" z:layout_constraintStart_toEndOf="@id/imageCastAvatar" z:layout_constraintTop_toTopOf="@id/imageCastAvatar" style="@style/TextAppearance.App.Subtitle" />
+    <TextView android:textColor="@color/white" android:id="@id/textCharacter" android:layout_width="wrap_content" android:layout_height="wrap_content" z:layout_constraintBottom_toBottomOf="parent" z:layout_constraintStart_toStartOf="@id/textActorName" z:layout_constraintTop_toBottomOf="@id/textActorName" style="@style/TextAppearance.App.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

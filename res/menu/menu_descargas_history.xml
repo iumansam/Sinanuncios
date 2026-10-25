@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@id/action_search" android:title="@string/common_search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:icon="@drawable/ic_clear" android:id="@id/action_clear_list" android:title="@string/common_clear" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_refresh" android:id="@id/action_rescan_folder" android:title="@string/menu_scan_folder" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_select_all" android:title="@string/menu_select_all" app:showAsAction="never" />
+    <item android:id="@id/action_clean_temporals" android:title="@string/menu_clean_temporaries" app:showAsAction="never" />
+</menu>

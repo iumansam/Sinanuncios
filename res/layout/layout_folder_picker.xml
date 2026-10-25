@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_rounded_bottom_sheet" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <ImageButton android:id="@id/btn_change_storage" android:background="?selectableItemBackgroundBorderless" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@android:drawable/ic_menu_view" android:tooltipText="Cambiar Unidad (SD/Interna)" app:tint="@android:color/white" />
+        <ImageButton android:id="@id/btn_up" android:background="?selectableItemBackgroundBorderless" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@android:drawable/ic_menu_revert" android:contentDescription="@string/common_up_level_content_description" app:tint="@android:color/white" />
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="start" android:id="@id/tv_current_path" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/auto_layout_folder_picker_storage_emulated_0_download" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+        <ImageButton android:id="@id/btn_create_folder" android:background="?selectableItemBackgroundBorderless" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@android:drawable/ic_input_add" android:contentDescription="@string/auto_layout_folder_picker_nueva_carpeta" app:tint="@android:color/white" />
+    </LinearLayout>
+    <View android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_files" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.google.android.material.button.MaterialButton android:textSize="16.0sp" android:id="@id/btn_select_here" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="10.0dip" android:text="@string/auto_layout_folder_picker_usar_esta_carpeta" app:cornerRadius="8.0dip" />
+</LinearLayout>

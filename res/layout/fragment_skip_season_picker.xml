@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bottom_sheet_background" android:paddingTop="12.0dip" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/bg_skip_sheet_handle" android:layout_width="44.0dip" android:layout_height="4.0dip" android:layout_marginBottom="16.0dip" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_fragment_skip_season_picker_editar_intro_final" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="@color/white_text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/skip_season_picker_subtitle" />
+    <com.google.android.material.textview.MaterialTextView android:textColor="@color/white_text_secondary" android:id="@id/textEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/auto_fragment_skip_season_picker_no_se_encontraron_temporadas" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerSeasons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:overScrollMode="never" />
+</LinearLayout>

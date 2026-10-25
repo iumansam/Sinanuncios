@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/cardBackup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:cardBackgroundColor="@color/grey850" app:cardCornerRadius="8.0dip" app:cardElevation="2.0dip" app:strokeColor="@android:color/darker_gray" app:strokeWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="62.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvBackupName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/ivSelected" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/grey300" android:id="@id/tvBackupMeta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/tvBackupName" android:layout_toStartOf="@id/ivSelected" />
+        <ImageView android:id="@id/ivSelected" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_check" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:tint="@color/green" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

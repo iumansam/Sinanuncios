@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/player_loader_panel" android:background="@drawable/bg_player_loader_panel" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="260.0dip" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/player_loader_art" android:background="@drawable/bg_player_loader_logo_plate" android:layout_width="36.0dip" android:layout_height="36.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/player_loader_logo" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/logo_new" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/white_text" android:ellipsize="end" android:gravity="start" android:id="@id/player_loader_status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/poppinsbold" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/white_text_secondary" android:ellipsize="end" android:gravity="start" android:id="@id/player_loader_detail_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:fontFamily="@font/poppinsmedium" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="11.0sp" android:textColor="#d9ffffff" android:gravity="start" android:id="@id/player_loader_hint_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:lineSpacingExtra="1.0dip" android:alpha="0.0" android:fontFamily="@font/poppinsregular" />
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/player_loader_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:indeterminate="true" app:indicatorColor="@color/colorPrimaryDark" app:trackColor="@color/nav_drawer_stroke" app:trackThickness="2.0dip" />
+    </LinearLayout>
+</FrameLayout>

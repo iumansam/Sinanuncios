@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" app:cardBackgroundColor="@color/grey1100" app:cardCornerRadius="18.0dip" app:cardElevation="10.0dip" app:strokeColor="@color/grey850" app:strokeWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="26.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/bg_maintenance_icon" android:layout_width="64.0dip" android:layout_height="64.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/clock" android:tint="@color/colorPrimaryDark" android:contentDescription="@null" />
+        </FrameLayout>
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/textClockSkewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/intro_clock_skew_title" android:fontFamily="sans-serif-black" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white_text_secondary" android:gravity="center" android:id="@id/textClockSkewMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/intro_clock_skew_message" android:lineSpacingExtra="2.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white_text_secondary" android:gravity="center" android:id="@id/textClockSkewHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/intro_clock_skew_hint" android:lineSpacingExtra="2.0dip" />
+        <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="22.0dip" />
+        <com.google.android.material.button.MaterialButton android:textStyle="bold" android:id="@id/btnClockSkewSettings" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginTop="18.0dip" android:text="@string/intro_clock_skew_open_settings" android:textAllCaps="false" app:cornerRadius="8.0dip" style="@style/Widget.App.Button" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

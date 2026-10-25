@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@android:drawable/stat_sys_download_done" android:id="@id/action_recover_selected" android:title="@string/menu_recover" app:showAsAction="ifRoom" />
+    <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/action_delete_selected" android:title="@string/common_delete" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_clear_selection" android:title="@string/auto_menu_descargas_multi_limpiar_seleccion" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/nav_drawer_selected_focus" />
+            <stroke android:width="1.0dip" android:color="#80d80000" />
+            <corners android:radius="8.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/nav_drawer_selected" />
+            <corners android:radius="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#ff070707" android:endColor="#ff140000" android:angle="0.0" android:centerColor="#ff060000" />
+            <stroke android:width="1.0dip" android:color="@color/nav_drawer_stroke" />
+            <corners android:radius="8.0dip" />
+        </shape>
+    </item>
+</selector>

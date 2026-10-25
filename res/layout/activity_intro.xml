@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_intro_premium" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/intro_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip">
+        <FrameLayout android:id="@id/intro_logo_plate" android:layout_width="128.0dip" android:layout_height="128.0dip" android:elevation="12.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/logo" android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@drawable/logo_new" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        </FrameLayout>
+        <TextView android:textSize="26.0sp" android:textColor="@color/white_text" android:gravity="center" android:id="@id/nameApp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/app_name" android:maxLines="1" android:fontFamily="@font/poppinsbold" />
+        <View android:id="@id/intro_accent_line" android:background="@drawable/bg_intro_accent_line" android:layout_width="112.0dip" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" />
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/intro_loading_bar" android:layout_width="156.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:indeterminate="true" app:indicatorColor="@color/colorPrimaryDark" app:trackColor="@color/white_more_transparent" app:trackThickness="3.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/intro_footer" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <com.google.android.material.button.MaterialButton android:textColor="@color/white_text" android:id="@id/btn_send_report" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="44.0dip" android:text="@string/intro_send_report" app:backgroundTint="@color/colorPrimaryDark" app:cornerRadius="8.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white_text_secondary" android:gravity="center" android:id="@id/textIntro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/intro_version_label" android:fontFamily="@font/poppinsmedium" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#ff000000" android:endColor="#ff150000" android:angle="270.0" android:centerColor="#ff080606" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/bg_gradient_dither_noise" android:dither="true" android:tileMode="repeat" />
+    </item>
+</layer-list>

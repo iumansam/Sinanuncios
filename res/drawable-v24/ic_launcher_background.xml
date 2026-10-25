@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dip" android:width="108.0dip" android:viewportWidth="612.0" android:viewportHeight="792.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:scaleX="0.7418182" android:scaleY="0.96" android:translateX="79.00364" android:translateY="15.84">
+        <path android:fillColor="@drawable/$ic_launcher_background__0" android:pathData="M0,0h612v792h-612z" />
+    </group>
+</vector>

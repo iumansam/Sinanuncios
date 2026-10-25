@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/player_overlay_info" android:background="@drawable/bg_player_toast" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="96.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#f2ffffff" android:ellipsize="end" android:layout_gravity="center" android:id="@id/player_overlay_textinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="388.0dip" android:maxLines="2" android:fontFamily="@font/poppinsmedium" />
+</FrameLayout>

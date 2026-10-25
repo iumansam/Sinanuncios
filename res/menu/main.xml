@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:z="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_close_black_48dp" android:id="@id/close_search" android:visible="false" android:orderInCategory="0" android:title="@string/common_clear" z:showAsAction="always" />
+    <item android:icon="@drawable/ic_search" android:id="@id/buscar" android:orderInCategory="0" android:title="@string/common_search" z:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_categorie" android:id="@id/categoria" android:visible="true" android:orderInCategory="1" android:title="@string/menu_advanced_search" z:showAsAction="always" />
+    <item android:icon="@drawable/ic_refresh" android:id="@id/refresh" android:visible="true" android:orderInCategory="2" android:title="@string/common_refresh" z:showAsAction="always" />
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/nav_group_explore">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:icon="@drawable/ic_peli" android:id="@id/nav_pelis" android:title="@string/peliculas" android:checkable="true" />
+                <item android:icon="@drawable/ic_serie" android:id="@id/nav_series" android:title="@string/series" android:checkable="true" />
+                <item android:icon="@drawable/ic_anime" android:id="@id/nav_anime" android:title="@string/animes_cartoon" android:checkable="true" />
+                <item android:icon="@drawable/ic_dorama" android:id="@id/nav_serv1s" android:title="@string/doramas" android:checkable="true" />
+                <item android:icon="@drawable/ic_duanju" android:id="@id/nav_duanju" android:title="@string/duanju" android:checkable="true" />
+                <item android:icon="@drawable/nav_teleno" android:id="@id/nav_serv3s" android:title="@string/telenovelas" android:checkable="true" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_group_library">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:icon="@drawable/ic_fab" android:id="@id/nav_fab" android:title="@string/common_favorites" android:checkable="true" />
+                <item android:icon="@drawable/ic_history" android:id="@id/history" android:title="@string/nav_playback_history" android:checkable="true" />
+                <item android:icon="@drawable/ic_fire" android:id="@id/nav_recents" android:visible="false" android:title="@string/recents" />
+                <item android:icon="@drawable/ic_des" android:id="@id/nav_des" android:title="@string/nav_downloads" />
+                <item android:icon="@drawable/ic_gestor_d" android:id="@id/nav_des2" android:title="@string/nav_download_manager" />
+                <item android:icon="@drawable/m_report" android:id="@id/nav_my_reports" android:title="@string/nav_my_reports" />
+                <item android:icon="@drawable/ic_skip_times" android:id="@id/nav_skip_contributions" android:title="@string/nav_skip_contributions" />
+                <item android:icon="@drawable/ic_skip_intro" android:id="@id/nav_skip_reviewer_series" android:visible="false" android:title="@string/nav_skip_reviewer_series" />
+            </group>
+        </menu>
+    </item>
+    <item android:id="@id/nav_com" android:title="@string/nav_group_support_app">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item android:icon="@drawable/m_report" android:id="@id/nav_request_content" android:title="@string/nav_request_content" />
+                <item android:icon="@drawable/ic_info" android:id="@id/problemas" android:title="@string/nav_common_issues" />
+                <item android:icon="@drawable/ic_premium" android:id="@id/sc" android:visible="false" android:title="@string/nav_activate_free_code" />
+                <item android:icon="@drawable/ic_lanzar" android:id="@id/nav_manual" android:title="@string/manual" />
+                <item android:icon="@drawable/ic_premium" android:id="@id/premium" android:visible="false" android:title="@string/quitar_anuncios" />
+                <item android:icon="@drawable/ic_rewarded" android:id="@id/rewarded" android:title="@string/nav_rewards" />
+                <item android:icon="@drawable/ic_premium" android:id="@id/nav_promo_active" android:visible="false" android:title="@string/nav_active_promo" />
+                <item android:icon="@drawable/ic_apk" android:id="@id/nav_apk" android:title="@string/apk" />
+                <item android:icon="@drawable/ic_social" android:id="@id/social" android:visible="false" android:title="@string/social" />
+                <item android:icon="@drawable/ic_ws" android:id="@id/ws" android:visible="false" android:title="@string/grupo" />
+                <item android:icon="@drawable/ic_fb" android:id="@id/fb" android:visible="false" android:title="@string/facebook" />
+                <item android:icon="@drawable/ic_ig" android:id="@id/ig" android:visible="false" android:title="@string/instragram" />
+                <item android:icon="@drawable/dmca" android:id="@id/report" android:visible="false" android:title="@string/nav_report_dmca" />
+                <item android:icon="@drawable/ic_star" android:id="@id/calificar" android:visible="false" android:title="@string/nav_rate_us" />
+                <item android:icon="@drawable/ic_menu_share" android:id="@id/nav_share" android:title="@string/share" />
+                <item android:icon="@drawable/ic_sett" android:id="@id/ajustes" android:title="@string/ajustes" />
+                <item android:icon="@drawable/ic_power" android:id="@id/nav_exit" android:title="@string/exit" />
+            </group>
+        </menu>
+    </item>
+</menu>

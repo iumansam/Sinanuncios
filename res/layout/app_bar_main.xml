@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/app_main_content_shell" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_coordinator_layout" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/app_bar_layout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+                <com.google.android.material.tabs.TabLayout android:id="@id/categorias" android:background="@color/colorPrimary" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/view_pager" android:nextFocusRight="@id/view_pager" android:nextFocusUp="@id/view_pager" android:nextFocusDown="@id/view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_anchor="@id/app_bar_layout" app:layout_anchorGravity="bottom" app:tabIndicatorColor="@color/colorPrimaryDark" app:tabRippleColor="@color/colorPrimaryDark" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:nextFocusUp="@id/categorias" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            <LinearLayout android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <clans.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/m_del" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_remove_circle" app:fab_colorNormal="@color/grey900" app:fab_colorPressed="@color/grey500" app:fab_label="Borrar" />
+                <clans.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/m_add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fab" app:fab_colorNormal="@color/grey900" app:fab_colorPressed="@color/grey500" app:fab_label="Borrar" />
+            </LinearLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.mancj.materialsearchbar.MaterialSearchBar android:id="@id/searchBar" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentTop="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:elevation="8.0dip" style="@style/Theme.App.MaterialSearchBar" />
+    </RelativeLayout>
+</FrameLayout>
